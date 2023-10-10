@@ -34,6 +34,8 @@ h1 {
 #lista-carrito {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 #lista-carrito li {
@@ -46,4 +48,17 @@ button {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
